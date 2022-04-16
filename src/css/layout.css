@@ -1,0 +1,22 @@
+
+.sideBar{
+  float:left;
+  width: 200px;
+}
+.contentBox{
+  margin-left: 200px;
+}
+
+
+.side_bar{
+  float: left;
+  width: 200px;
+  margin-right: -200px;
+}
+.content_box{
+  float: left;
+  width: 100%;
+}
+.content_box .inner_box{
+  margin-left: 200px;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "fiber",
+  "main": [
+    "./src/fiber.js"
+  ],
+  "ignore": [
+    "**/.*",
+    "docs",
+    "test",
+    "package.json",
+    "*.html"
+  ],
+  "homepage": "https://github.com/linkedin/Fiber",
+  "_release": "e930b220a9",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "e930b220a95246357b4929b37a6a5e9e6679843f"
+  },
+  "_source": "https://github.com/linkedin/Fiber.git",
+  "_target": "*",
+  "_originalSource": "fiber"
+}

@@ -1,0 +1,192 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>baseTask</title>
+		<link type="text/css" rel="stylesheet" href="css/custom.css">
+		<link type="text/css" rel="stylesheet" href="css/index.css">
+		<style>
+		</style>
+		<script>
+			function l(){
+				console.log.apply(console,arguments);
+			}
+		</script>
+		<script src="js/libs/underscore/underscore.js"></script>
+		<script src="js/libs/jquery/dist/jquery.js"></script>
+		<script src="js/libs/async/dist/async.js"></script>
+		<script src="js/libs/fiber/src/fiber.js"></script>
+		<script src="js/common/chapter01.js"></script>
+		<script src="js/common/chapter02.js"></script>
+		<script src="js/common/chapter03.js"></script>
+		<script src="js/common/chapter04.js"></script>
+		<script src="js/common/chapter05.js"></script>
+		<script src="js/common/chapter06.js"></script>
+		<script src="js/common/chapter07.js"></script>
+		<script src="js/common/chapter08.js"></script>
+		<script src="js/common/chapter09.js"></script>
+		<script src="js/common/chapter10.js"></script>
+		<script src="js/common/chapter11.js"></script>
+		<script src="js/common/chapter12.js"></script>
+		<script src="js/common/chapter13.js"></script>
+		<script src="js/common/chapter14.js"></script>
+		<script src="js/common/chapter15.js"></script>
+		<script src="js/common/chapter16.js"></script>
+		<script src="js/common/chapter17.js"></script>
+		<script src="js/common/chapter18.js"></script>
+		<script src="js/common/chapter19.js"></script>
+		<script src="js/common/chapter20.js"></script>
+		<script src="js/common/chapter21.js"></script>
+		<script src="js/morejs/demo.js"></script>
+		<script src="js/morejs/demo2.js"></script>
+	</head>
+	<body>
+		<h1 class="C1 bg4 FC" id='myBtn'>baseTask</h1>
+		<div id="container"></div>
+		<div id="container2"></div>
+		<div id="container3"></div>
+		<div id="container4"></div>
+
+		<!-- 这个在自定义的webComponent会用到 -->
+		<my-xxx></my-xxx>
+		<my-fish></my-fish>
+		<!-- 下面这种简写的形式视乎有点问题，保险起见，还是用上面的吧 -->
+		<!-- <my-xxx />
+		<my-fish /> -->
+
+		<div class="layoutBox MT5">
+			<div class="layoutBoxL">左边定宽</div>
+			<div class="layoutBoxM">中间自适应（flex 实现）</div>
+			<div class="layoutBoxR">右边定宽</div>
+		</div>
+		
+		<div class="layoutBox MT5">
+			<div class="layoutBoxL">左边定宽</div>
+			<div class="layoutBoxM">
+				<div>中间自适应</div>
+				<div>（flex 实现）</div>
+			</div>
+		</div>
+
+		<!-- 清除浮动 -->
+		<div class="clearBox"></div>
+
+		<div class="">
+			<!-- 居中对齐 -->
+			<div class="bg2 box fatherBox">
+				<div class="bg5 sonBox">居中</div>
+			</div>
+
+			<!-- flex1 -->
+			<div class="bg2 box fatherBox2">
+				<article>
+					<p>标题</p>
+				</article>
+				<article>
+					<p>仅仅对外容器设置flex</p>
+				</article>
+			</div>
+
+			<!-- flex2 -->
+			<div class="bg2 box fatherBox3">
+				<article>
+					<p>标题</p>
+				</article>
+				<article>
+					<p>flex-direction: column; 可以改变方向</p>
+				</article>
+			</div>
+
+			<!-- flex3 -->
+			<div class="bg2 box fatherBox4">
+				<article>
+					<p>标题</p>
+				</article>
+				<article>
+					<p>flex-direction: column; 可以改变方向</p>
+				</article>
+			</div>
+
+			<!-- flex4 -->
+			<div class="bg2 box fatherBox5">
+				<article>
+					<p>标题</p>
+				</article>
+				<article>
+					<p>内容1</p>
+				</article>
+				<article>
+					<p>内容2</p>
+				</article>
+				<article>
+					<p>内容99</p>
+				</article>
+				<article>
+					<p>溢出了</p>
+				</article>
+			</div>
+
+			<!-- flex5 -->
+			<div class="bg2 box fatherBox6">
+				<article>
+					<p>标题</p>
+				</article>
+				<article>
+					<p>内容1</p>
+				</article>
+				<article>
+					<p>内容2</p>
+				</article>
+				<article>
+					<p>内容99</p>
+				</article>
+				<article>
+					<p>没溢出了</p>
+				</article>
+			</div>
+
+			<!-- flex6 -->
+			<div class="bg2 box fatherBox7">
+				<article>
+					<p>标题</p>
+				</article>
+				<article>
+					<p>内容1</p>
+				</article>
+				<article>
+					<p>内容2</p>
+				</article>
+				<article>
+					<p>内容99</p>
+				</article>
+				<article>
+					<p>没溢出了</p>
+				</article>
+			</div>
+
+			<!-- flex7 -->
+			<div class="bg2 box fatherBox8">
+				<article>
+					<p>标题</p>
+				</article>
+				<article>
+					<p>内容</p>
+				</article>
+			</div>
+
+			<!-- flex8 居中对齐 -->
+			<div class="bg2 box fatherBox9">
+				<div class="bg5 sonBox">flex实现的居中</div>
+			</div>
+
+			<!-- 清除浮动 -->
+			<div class="clearBox"></div>
+
+
+
+
+
+		</div>
+
+		
+	</body>
+</html>
